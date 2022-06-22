@@ -1,0 +1,24 @@
+.part__subtitle {
+    width: 40%;
+    margin-left: 15.94%;
+    margin-right: 49.06%;
+    margin-top: 0;
+    margin-bottom: 0px;
+    font-family: 'Trebuchet MS';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px; 
+    color: #000000;
+}
+
+.part__subtitle_out { 
+    color: #B3B3B3;
+}
+
+
+@media (max-width: 1200px) {
+    .part__subtitle {
+        width: 60%; 
+    }
+}

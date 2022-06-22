@@ -1,0 +1,38 @@
+.part__pic {
+    background: url("../../../../images/Oval.png");
+    right: 0;
+    bottom: 0;
+    z-index: 3;
+    position: absolute;
+    margin-bottom: 16px;
+    margin-right: 16px;
+    width: 80px;
+    height: 80px;
+}
+
+
+.part__pic_red {
+    background: url("../../../../images/Ovall.png");
+}
+
+.part__pic_out {
+    background: url("../../../../images/Ovalll.png");
+}
+
+
+.part__pic_num-f {
+    margin-top: 20px;
+    margin-left: 10.5px;
+}
+
+.part__pic_num {
+    margin-top: 20px;
+    margin-left: 30.5px;
+}
+
+.part__pic_gr {
+    margin-top: 0px;
+    margin-left: 30.5px;
+    margin-bottom: 8px; 
+}
+

@@ -1,0 +1,48 @@
+.part__list_foiegras {
+    margin-left: 51px;
+    margin-top: 15px;
+    margin-bottom: 0;
+    font-family: 'Trebuchet MS';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #666666;
+}
+
+.part__list_fish {
+    margin-left: 51px;
+    margin-top: 15px;
+    margin-bottom: 0;
+    font-family: 'Trebuchet MS';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #666666;
+}
+
+.part__list_chiken {
+    margin-left: 51px;
+    margin-top: 15px;
+    margin-bottom: 0;
+    font-family: 'Trebuchet MS';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #666666;
+}
+
+.part__list_foiegras-out {
+    color: #B3B3B3;
+}
+
+
+.part__list_fish-out {
+    color: #B3B3B3;
+}
+
+.part__list_chiken-out {
+    color: #B3B3B3;
+}

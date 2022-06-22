@@ -1,0 +1,137 @@
+@import url('../../part/__foto/part__foto.css');
+@import url('../../part/__list/part__list.css');
+@import url('../../part/__pic/part__pic.css');
+@import url('../../part/__subtitle/part__subtitle.css');
+@import url('../../part/__text/part__text.css');
+@import url('../../part/__title/part__title.css');
+
+
+.catmenu__part_foiegras {
+    height: 480px;
+    position: relative;
+    background-color: #F2F2F2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    overflow: hidden;
+    border: 4px solid #2EA8E6;
+    border-radius: 12px;
+    background:linear-gradient(135deg, transparent 40px, #F2F2F2 0);  
+}
+
+
+.catmenu__part_foiegras-red {
+    border: 4px solid #D91667;
+}
+
+.catmenu__part_foiegras-out {
+    border: 4px solid #B3B3B3;
+}
+
+
+.catmenu__part_fish {
+    height: 480px;
+    position: relative;
+    background-color: #F2F2F2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    overflow: hidden;
+    border: 4px solid #2EA8E6;
+    border-radius: 12px;
+    background:linear-gradient(135deg, transparent 40px, #F2F2F2 0);
+}
+
+.catmenu__part_fish-red {
+    border: 4px solid #D91667;
+}
+
+
+.catmenu__part_fish-out {
+    border: 4px solid #B3B3B3;     
+}
+
+.catmenu__part_chiken {
+    height: 480px;
+    position: relative;
+    margin-right: 0;
+    background-color: #F2F2F2;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    overflow: hidden;
+    border: 4px solid #2EA8E6;
+    border-radius: 12px;
+    background:linear-gradient(135deg, transparent 40px, #F2F2F2 0);
+}
+
+.catmenu__part_chiken-red {
+    border: 4px solid #D91667;
+}
+
+.catmenu__part_chiken-out {
+    border: 4px solid #B3B3B3;
+}
+
+@media (max-width: 1024px) {
+    .catmenu__part_foiegras {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        object-fit: cover;
+    }
+}
+
+@media (max-width: 1024px) {
+    .catmenu__part_fish {
+        grid-column-start: 4;
+        grid-column-end: 6;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        object-fit: cover;
+    }
+}
+
+@media (max-width: 1024px) {
+    .catmenu__part_chiken  {
+        grid-column-start: 2;
+        grid-column-end: 5;
+        grid-row-start: 4;
+        grid-row-end: 5;
+        object-fit: cover;
+    }
+}
+
+@media (max-width: 700px) {
+    .catmenu__part_foiegras {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        object-fit: fill;
+    }
+}
+
+@media (max-width: 700px) {
+    .catmenu__part_fish {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 4;
+        grid-row-end: 5;
+        object-fit: fill;
+    }
+}
+
+@media (max-width: 700px) {
+    .catmenu__part_chiken  {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 7;
+        grid-row-end: 8;
+        object-fit: fill;
+    }
+}

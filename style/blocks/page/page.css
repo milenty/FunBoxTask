@@ -1,0 +1,23 @@
+.page {
+    position: relative;
+    width: 100%;
+    height: auto;
+    background: url("../../../images/Pattern.jpg");
+    background-size: auto;
+    margin-left: auto;
+    margin-right: auto;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+  } 
+
+  .page_dark-theme {
+    background: url("../../../images/Pattern.jpg");
+  }
+
+  .page_light-theme {
+    background: url("../../../images/Shadow.png");
+  }

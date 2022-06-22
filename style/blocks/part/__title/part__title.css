@@ -1,0 +1,23 @@
+.part__title {
+    margin-left: 15%;
+    margin-right: 19%;
+    margin-top: 5px;
+    margin-bottom: 0;
+    width: 65.9%;
+    font-family: 'Trebuchet MS';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    color: #000000;
+}
+
+.part__title_out {
+    color: #B3B3B3;
+}
+
+@media (max-width: 1200px) {
+    .part__title {
+        
+    }
+}

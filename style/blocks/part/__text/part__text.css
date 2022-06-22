@@ -1,0 +1,21 @@
+.part__text {
+    margin-left: 15.94%;
+    margin-right: 20%;
+    margin-top: 21px;
+    margin-bottom: 0;
+    width: 80%;
+    color: #666666;
+    font-family: 'Trebuchet MS';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.part__text_red {
+    color:  #D91667;
+}
+
+.part__text_out {
+    color: #B3B3B3;
+}
